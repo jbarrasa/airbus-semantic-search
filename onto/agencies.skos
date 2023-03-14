@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sesame="http://www.openrdf.org/schema/sesame#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:fn="http://www.w3.org/2005/xpath-functions#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:hint="http://www.bigdata.com/queryHints#"
+	xmlns:bd="http://www.bigdata.com/rdf#"
+	xmlns:bds="http://www.bigdata.com/rdf/search#"
+	xmlns:psn="http://www.wikidata.org/prop/statement/value-normalized/"
+	xmlns:pqn="http://www.wikidata.org/prop/qualifier/value-normalized/"
+	xmlns:prn="http://www.wikidata.org/prop/reference/value-normalized/"
+	xmlns:mwapi="https://www.mediawiki.org/ontology#API/"
+	xmlns:gas="http://www.bigdata.com/rdf/gas#"
+	xmlns:wdt="http://www.wikidata.org/prop/direct/"
+	xmlns:wdtn="http://www.wikidata.org/prop/direct-normalized/"
+	xmlns:psv="http://www.wikidata.org/prop/statement/value/"
+	xmlns:ps="http://www.wikidata.org/prop/statement/"
+	xmlns:pqv="http://www.wikidata.org/prop/qualifier/value/"
+	xmlns:pq="http://www.wikidata.org/prop/qualifier/"
+	xmlns:prv="http://www.wikidata.org/prop/reference/value/"
+	xmlns:pr="http://www.wikidata.org/prop/reference/"
+	xmlns:wdno="http://www.wikidata.org/prop/novalue/"
+	xmlns:p="http://www.wikidata.org/prop/"
+	xmlns:wikibase="http://wikiba.se/ontology#"
+	xmlns:wd="http://www.wikidata.org/entity/"
+	xmlns:wdata="http://www.wikidata.org/wiki/Special:EntityData/"
+	xmlns:wds="http://www.wikidata.org/entity/statement/"
+	xmlns:wdv="http://www.wikidata.org/value/"
+	xmlns:wdref="http://www.wikidata.org/reference/"
+	xmlns:schema="http://schema.org/"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:geo="http://www.opengis.net/ont/geosparql#"
+	xmlns:geof="http://www.opengis.net/def/geosparql/function/"
+	xmlns:mediawiki="https://www.mediawiki.org/ontology#"
+	xmlns:ontolex="http://www.w3.org/ns/lemon/ontolex#"
+	xmlns:dct="http://purl.org/dc/terms/">
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q23548">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q1752939"/>
+	<skos:prefLabel xml:lang="en">National Aeronautics and Space Administration</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1752939">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">independent agency of the United States government</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q23548">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/NASA</skos:altLabel>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q17505024">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">space agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q48756">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">CNES</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/CNES</skos:altLabel>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q31855"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q31855">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">research institute</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q42262">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q245065"/>
+	<skos:prefLabel xml:lang="en">European Space Agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q245065">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">intergovernmental organization</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q42262">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/European_Space_Agency</skos:altLabel>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q484652"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q484652">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">international organization</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q42262">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q179103">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Japan Aerospace Exploration Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/JAXA</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q190795">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q35798"/>
+	<skos:prefLabel xml:lang="en">Roscosmos State Corporation</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q35798">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">executive branch</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q190795">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Roscosmos</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q212227">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Canadian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Canadian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q190795">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q327333"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q327333">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">government agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q190795">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q212227">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q27865755"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q27865755">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Canadian federal department or agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q190795">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q14944295"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q14944295">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Federal agency (Russian Federation)</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q190795">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q270791"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q270791">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">state-owned enterprise</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q107005408">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q31855"/>
+	<skos:prefLabel xml:lang="en">Spanish Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Agencia_Espacial_Espa%C3%B1ola</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q65089942">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Philippine Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Philippine_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q39056587">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">New Zealand Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/New_Zealand_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q53478952">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q110376455"/>
+	<skos:prefLabel xml:lang="en">Australian Space Agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q110376455">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Australian Government body</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q53478952">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Australian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q51322197">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Hellenic Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Hellenic_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q60765992">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Saudi Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Saudi_Space_Commission</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q55610347">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">European Union Agency for the Space Programme</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/European_Union_Agency_for_the_Space_Programme</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q100937065">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Catalan Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Catalan_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q56669793">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Luxembourg Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Luxembourg_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q55610347">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q112827555"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q112827555">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">decentralised agency of the European Union</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q113378947">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Latin American and Caribbean Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Latin_American_and_Caribbean_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q53478952">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q107005408">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q5995224">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Turkish Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Turkish_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4090805">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Agencia Boliviana Espacial</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Bolivian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q6952412">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q461"/>
+	<skos:prefLabel xml:lang="en">NASA Images</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q461">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Internet Archive</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q6952412">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/NASA_Images</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3270339">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Romanian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Romanian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4314934">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Turkmenistan National Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Turkmenistan_National_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4357330">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Swiss Space Office</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Swiss_Space_Office</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4090805">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q270791"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4269669">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Space Telescope European Coordinating Facility</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Space_Telescope_European_Coordinating_Facility</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q7129490">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Pan-Arab Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Pan-Arab_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q6952412">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q478798"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q478798">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">image</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3270881">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Agencia Bolivariana para Actividades Espaciales</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Bolivarian_Agency_for_Space_Activities</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q18203370">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Polish Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Polish_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q17124852">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">National Aerospace Development Administration</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/National_Aerospace_Development_Administration</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q20905490">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">United Arab Emirates Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/United_Arab_Emirates_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q6952412">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q23548"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4881922">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Belarus Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Belarus_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q4090805">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q327333"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q5099768">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">China Manned Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/China_Manned_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q229058">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q11753232"/>
+	<skos:prefLabel xml:lang="en">ISRO</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q11753232">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">launch service provider</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q229058">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Indian_Space_Research_Organisation</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q320644">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">China National Space Administration</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/China_National_Space_Administration</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q229058">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q699152">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q245065"/>
+	<skos:prefLabel xml:lang="en">United Nations Office for Outer Space Affairs</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/United_Nations_Office_for_Outer_Space_Affairs</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q295707">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Malaysian National Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/National_Space_Agency_(Malaysia)</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q261868">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Norwegian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Norwegian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q266710">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Czech Space Office</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Czech_Space_Office</skos:altLabel>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q43229"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q43229">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">organization</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q613057">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">South African National Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/South_African_National_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q494948">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Korea Aerospace Research Institute</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Korea_Aerospace_Research_Institute</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q392953">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Italian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Italian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q494948">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q31855"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q572596">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Iranian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Iranian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q699152">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q320644">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q98675100"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q98675100">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">vice-ministerial level institution</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q17505024">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q327333"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q30527379">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Israel Ministry of Defense Space Directorate</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q97344334">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q131647"/>
+	<skos:prefLabel xml:lang="en">Gagarin medal</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q131647">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">medal</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q111020770">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q43229"/>
+	<skos:prefLabel xml:lang="en">SPACE RESEARCH INSTITUTE OF THE NATIONAL ACADEMY OF SCIENCES OF UKRAINE AND THE NATIONAL SPACE AGENCY OF UKRAINE</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q97344334">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q618779"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q618779">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">award</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q97344334">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q190795"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3442298">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Rosaviakosmos</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q93842070">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Hellenic Space Center</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q111020770">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2042347">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Azerbaijan National Aerospace Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Azerbaijan_National_Aerospace_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1114726">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Comisión Nacional de Actividades Espaciales</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Comisi%C3%B3n_Nacional_de_Actividades_Espaciales</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q707725">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Korean Committee of Space Technology</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Korean_Committee_of_Space_Technology</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1140638">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">UK Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/UK_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q716634">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Taiwan Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/National_Space_Organization</skos:altLabel>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q16926263"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q16926263">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">non-departmental public body</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1427620">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">State Space Agency of Ukraine</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/State_Space_Agency_of_Ukraine</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1327876">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Netherlands Space Office</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Netherlands_Space_Office</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3269204">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Geo-Informatics and Space Technology Development Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Geo-Informatics_and_Space_Technology_Development_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1967794">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q327333"/>
+	<skos:prefLabel xml:lang="en">National Space Research and Development Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/National_Space_Research_and_Development_Agency</skos:altLabel>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1782920">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Swedish National Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Swedish_National_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2502839">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Space and Upper Atmosphere Research Commission</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Space_%26_Upper_Atmosphere_Research_Commission</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q815543">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q2288140"/>
+	<skos:prefLabel xml:lang="en">Belgian Institute for Space Aeronomy</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2288140">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Federal Scientific Institute</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q815543">
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Belgian_Institute_for_Space_Aeronomy</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1797789">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">National Institute of Aeronautics and Space</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/National_Institute_of_Aeronautics_and_Space</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1608365">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Ecuadorian Civilian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Ecuadorian_Civilian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q815543">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1140638">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q2826641"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2826641">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">executive agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q853604">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Brazilian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Brazilian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q3269204">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q13023559"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q13023559">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">public organization (Thailand)</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2502195">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Algerian Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Algerian_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1782920">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q68295960"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q68295960">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:prefLabel xml:lang="en">Swedish government agency</skos:prefLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2582603">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Mexican Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Agencia_Espacial_Mexicana</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q869675">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">Israel Space Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/Israel_Space_Agency</skos:altLabel>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q1114726">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q327333"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q716634">
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q327333"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://www.wikidata.org/entity/Q2704796">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+	<skos:broader rdf:resource="http://www.wikidata.org/entity/Q17505024"/>
+	<skos:prefLabel xml:lang="en">National Space Development Agency</skos:prefLabel>
+	<skos:altLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://en.wikipedia.org/wiki/National_Space_Development_Agency_of_Japan</skos:altLabel>
+</rdf:Description>
+
+</rdf:RDF>
